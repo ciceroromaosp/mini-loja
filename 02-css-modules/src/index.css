@@ -1,0 +1,36 @@
+/* === TOKENS DE DESIGN E GLOBAIS === */
+:root {
+  --color-primary: #007bff;
+  --color-primary-hover: #0056b3;
+  --color-text: #212529;
+  --color-background: #ffffff;
+  --color-surface: #f8f9fa;
+  --color-border: #dee2e6;
+  --color-tag-new: #28a745;
+  --color-tag-promo: #dc3545;
+  --color-star: #ffc107;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --font-family: 'Inter', system-ui, sans-serif;
+  --space-1: 0.25rem; --space-2: 0.5rem; --space-3: 0.75rem; --space-4: 1rem; --space-6: 1.5rem; --space-8: 2rem;
+  --border-radius: 0.5rem;
+  --transition-duration: 200ms;
+}
+
+html.dark {
+  --color-primary: #3b82f6;
+  --color-primary-hover: #1d4ed8;
+  --color-text: #e5e7eb;
+  --color-background: #111827;
+  --color-surface: #1f2937;
+  --color-border: #374151;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+:focus-visible { outline: 2px solid var(--color-primary); outline-offset: 2px; }
