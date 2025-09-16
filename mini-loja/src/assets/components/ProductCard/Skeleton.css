@@ -1,0 +1,44 @@
+.skeleton-card {
+  width: 100%;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: var(--space-4);
+}
+
+.skeleton-image, .skeleton-text {
+  background: linear-gradient(90deg, 
+    var(--color-border) 25%, 
+    color-mix(in srgb, var(--color-border) 50%, var(--color-surface)) 50%, 
+    var(--color-border) 75%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite linear;
+  border-radius: calc(var(--border-radius) / 2);
+}
+
+.skeleton-image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  margin-bottom: var(--space-4);
+}
+
+.skeleton-text {
+  height: 1rem;
+  margin-bottom: var(--space-2);
+}
+.skeleton-text.short {
+  width: 60%;
+}
+.skeleton-text.tiny {
+  width: 40%;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}

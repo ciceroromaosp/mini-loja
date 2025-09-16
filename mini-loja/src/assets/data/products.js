@@ -1,0 +1,51 @@
+// Dados mocados (simulados) dos produtos
+export const products = [
+  {
+    id: 1,
+    title: 'Monitor Gamer Curvo 27" Full HD 165Hz',
+    price: 1299.90,
+    rating: 5,
+    tag: 'Novo',
+    imageUrl: 'https://placehold.co/300x300/E0E0E0/333?text=Monitor',
+  },
+  {
+    id: 2,
+    title: 'Teclado Mecânico RGB Switch Red ABNT2',
+    price: 349.90,
+    rating: 4,
+    tag: 'Promo',
+    imageUrl: 'https://placehold.co/300x300/E0E0E0/333?text=Teclado',
+  },
+  {
+    id: 3,
+    title: 'Mouse Sem Fio Gamer 16000 DPI com 8 Botões',
+    price: 499.50,
+    rating: 5,
+    tag: null,
+    imageUrl: 'https://placehold.co/300x300/E0E0E0/333?text=Mouse',
+  },
+  {
+    id: 4,
+    title: 'Headset Gamer 7.1 Surround Sound com Microfone',
+    price: 599.00,
+    rating: 4,
+    tag: null,
+    imageUrl: 'https://placehold.co/300x300/E0E0E0/333?text=Headset',
+  },
+  {
+    id: 5,
+    title: 'Cadeira Gamer Ergonômica Reclinável de Couro',
+    price: 1899.99,
+    rating: 5,
+    tag: 'Novo',
+    imageUrl: 'https://placehold.co/300x300/E0E0E0/333?text=Cadeira',
+  },
+  {
+    id: 6,
+    title: 'Gabinete Gamer Mid-Tower com Vidro Temperado',
+    price: 750.00,
+    rating: 3,
+    tag: 'Promo',
+    imageUrl: 'https://placehold.co/300x300/E0E0E0/333?text=Gabinete',
+  },
+];
